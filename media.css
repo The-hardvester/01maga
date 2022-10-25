@@ -1,0 +1,125 @@
+
+@media(max-width: 600px){
+    /*body{
+        background-color: blue;
+    }*/
+    nav{
+        width: 100%;
+        position: fixed;
+        height: 42px;
+    }
+    .flexbox{
+        display: block;
+    }
+    .bouton{
+        display: block;
+        position: relative;
+        left: 27%;
+    }
+    .logoto{
+        margin-top: 15px;
+    }
+    .cards{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        margin: 0 0 0 6px;
+        position: relative;
+        left: 4px; 
+        
+    }
+    .c1, .c2, .c3{
+        position: relative;
+        margin: 0px;
+        width: 95%;
+    }
+    .c1{
+        bottom: 33px;
+    }
+    .c2{
+        bottom: 14px;
+    }
+    .c3{ 
+        height: 320px;
+    }
+    .texto{
+        margin: 0;
+    }
+    .bouton{
+        position: relative;
+        right: 55px;
+    }
+    .l1{
+        top: 15px;
+    }
+    .bv{
+        position: relative;
+        bottom: 35px;
+    }
+    .y1, .y2, .y3, .y4, .y6, .y7, .y8{
+        position: relative;
+    }
+    .y1{
+        bottom: 15px;
+    }
+    .y2{
+        bottom: 10px;
+    }
+    .y3{
+        bottom: 6px;
+    }
+    .y4{
+        bottom: 10px;
+    }
+    .y5{
+        top: px;
+    }
+  /* img cards */
+  .ps{
+    height: 239px;
+    position: relative;
+    left: 32px;
+  }
+  .o365{
+    height: 180px;
+    left: -10px;
+  }
+
+  /* modal fix position */
+  #crypto-modal{
+    margin-top: 100px;
+  }
+  #defaultModal{
+    margin-top: 60px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+    .cards{
+        position: relative;
+        left: 60px;
+    }
+}
+@media only screen and (min-width: 1920px){
+ 
+.cards{
+    left: 370px;
+}
+}
+/* back to top button */
+@media (min-width: 500px) {
+    .content {
+      width: 43%;
+    }
+    #button {
+      margin: 30px;
+    }
+  }
+  .content h1 {
+    margin-bottom: -10px;
+    color: #03a9f4;
+    line-height: 1.5;
+  }
+  .content h3 {
+    font-style: italic;
+    color: #96a2a7;
+  }
