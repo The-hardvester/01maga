@@ -1,0 +1,789 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+p{
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500
+}
+.fix-button-text{
+  font-size: 15px;
+}
+.nav-item .EN{
+  height: 24px;
+}
+.accordion-body{
+  font-size: 16px;
+}
+.img-2 video{
+  width: 120%;
+  position: relative;
+  top: 35px;
+}
+.video-5{
+  position: relative;
+  left: 20%;
+   top: -100px;
+  width: 720px;
+}
+.main-4 .mobile-view{
+  visibility: hidden;
+}
+.mobile{
+  visibility: hidden;
+}
+#section5{
+  position: relative;
+  
+}
+
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  --hue-color: 225;
+  --first-color: hsl(var(--hue-color), 48%, 35%);
+  --title-color: hsl(var(--hue-color), 48%, 22%);
+  --text-color: hsl(var(--hue-color), 12%, 35%);
+  --body-color: hsl(var(--hue-color), 49%, 98%);
+  --container-color: #FFF;
+  /*========== Font and typography ==========*/
+  --body-font:  'Inter', sans-serif;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+}
+
+
+/* NAVBAR */
+header nav{
+  position: fixed;
+  z-index: 99999;
+}
+nav img{
+  width: 65%;
+}
+
+nav .left{
+ margin-left: auto;
+}
+.img-3 img{
+  width: 90%;
+  height: 329px;
+}
+
+/* content body */
+.color-xbet{
+  color: #007bff;
+}
+.color-betwinner{
+  color: rgb(14, 129, 14);
+}
+.pay-color{
+  color: #7042bf;
+}
+.ico-info img{
+  width: 24px ;
+}
+
+.section-1 h3{
+  display: inline-block;
+  position: relative;
+  top: 80px;
+}
+.main-1 .main-1-text p{
+  position: relative;
+  top: 40px;
+  text-align: justify;
+}
+.main-1 video{
+  width: 500px;
+}
+.section-1 .main-1-title h3{
+  text-align: center;
+  margin-left: 120px;
+
+}
+.accordion-fix{
+  position: relative;
+  top: 33px;
+}
+.main-2 h3{
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  left: 190px;
+  width: 40%;
+}
+.main-3 .fix-h4{
+  display: inline;
+  width: 72%;
+  position: relative;
+  top: 35px;
+  left: 380px;
+}
+.main-3 .img-3 img{
+  position: relative;
+  top: 80px;
+}
+.main-3 .accordion-2-fix{
+  position: relative;
+  top: 40px;
+}
+
+.modal-body .embed-responsive iframe{
+  margin-left: 60px;
+}
+/* carousel fix */
+.carousel-item h4{
+  text-align: center;
+}
+.carousel-item .text{
+  text-align: justify;
+}
+ /* marquee */
+
+ marquee{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+  z-index: 0;
+ }
+ .marqtext{
+   position: relative;
+   top: 7px;
+ }
+
+ .marqee{
+   position: relative;
+   top: 43px;
+ }
+ 
+/* main-6-title fix*/
+
+.main-6-title h3{
+ text-align: center;
+ position: relative;
+ top: 20px;
+ font-size: 1.80rem;
+}
+
+/*
+@media screen and (min-width: 968px) {
+  :root {
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+/*=============== BASE ===============*/
+
+a, .btn, .accordion-button, .accordion-body, .number-card-dollars,
+.tagline, .style-label{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+} 
+h2,h3,h4{
+  color: black;
+}
+h1,h2,h3,h4,i{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+body {
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+
+.main-4{
+  position: relative;
+  bottom: 80px;
+}
+
+.main-4 h3 {
+  display: inline-block;
+  width: 40%;
+  position: relative;
+  top: 200px;
+}
+.main-4 .main-4-text p{
+  position: relative;
+  top: 10px;
+  text-align: justify;
+}
+
+
+/*=============== MEDIA QUERIES ===============*/
+/* For medium devices 
+@media screen and (min-width: 576px) {
+  .accordion__container {
+    width: 550px;
+    padding: 2.5rem;
+    justify-self: center;
+    border-radius: .75rem;
+  }
+  .accordion__header {
+    padding: 1.5rem;
+  }
+  .accordion__title {
+    padding-right: 3.5rem;
+  }
+  .accordion__description {
+    padding: 0 4rem 1.25rem 3.5rem;
+  }
+}
+
+/* For large devices 
+@media screen and (min-width: 968px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  */
+
+  /* CAROUSEL MAIN-5 */
+  
+
+ /* CARD */
+
+ .main-6{
+   display: flex;
+ }
+ .card-counter{
+  box-shadow: 2px 2px 10px #DADADA;
+  margin: 5px;
+  padding: 20px 10px;
+  background-color: #fff;
+  height: 100px;
+  border-radius: 5px;
+  transition: .3s linear all;
+}
+
+.card-counter:hover{
+  box-shadow: 4px 4px 20px #DADADA;
+  transition: .3s linear all;
+}
+
+.card-counter.primary{
+  background-color: #007bff;
+  color: #FFF;
+}
+
+.card-counter.danger{
+  background-color: #ef5350;
+  color: #FFF;
+}  
+
+.card-counter.success{
+  background-color: #66bb6a;
+  color: #FFF;
+}  
+
+.card-counter.info{
+  background-color: #26c6da;
+  color: #FFF;
+}  
+
+.card-counter i{
+  font-size: 5em;
+  opacity: 0.2;
+}
+
+.card-counter .count-numbers{
+  position: relative;
+  left: 220px;
+  top: 20px;
+  font-size: 32px;
+  display: block;
+}
+
+.card-counter .count-name{
+  position: relative;
+  left: 220px;
+  top: 140px;
+  font-style: italic;
+  text-transform: capitalize;
+  opacity: 0.5;
+  display: block;
+  font-size: 18px;
+}
+
+  /* FOOTER */
+   
+  footer{
+      background-image: url(../img/jumbotron.png);
+      background-size: cover;
+      position: relative;
+      
+  }
+
+  footer p {
+    color: white;
+    text-align: center;
+    padding-bottom: 3px;
+  }
+
+  footer h3{
+      color: white;
+      height: 220px;
+      text-align: center;
+      font-size: 2.75em;
+      text-transform: uppercase;
+      position: relative;
+      top: 7px;
+      
+  }
+
+  footer ul{
+    display: flex;
+  }
+
+  footer ul li{
+    list-style: none;
+    position: relative;
+    left: 30%;
+    bottom: 100px;
+    padding: 0 20px;
+    
+  }
+
+  footer ul img{
+      height: 28px;
+  }
+  .modal-footer img{
+    margin-left: 8px;
+  }
+
+  /* Button Scroll Top */
+
+  #button {
+    display: inline-block;
+    background-color: #4B5563;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* CARD NUMBERED */
+
+  h1{
+    font-size:2em;
+    margin:.67em 0;
+}
+ *{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+   font-family: Roboto, sans-serif;
+}
+ h1{
+    font-weight:bold;
+    margin-bottom:10px;
+}
+ h1{
+    font-size:38px;
+    line-height:44px;
+    margin-top:20px;
+}
+ .w-row:before,.w-row:after{
+    content:" ";
+    display:table;
+}
+ .w-row:after{
+    clear:both;
+}
+ .w-col{
+    position:relative;
+    float:left;
+    width:100%;
+    min-height:1px;
+    padding-left:10px;
+    padding-right:10px;
+}
+ .w-col-3{
+    width:25%;
+}
+ @media screen and (max-width:767px){
+     .w-row{
+        margin-left:0;
+        margin-right:0;
+    }
+     .w-col{
+        width:100%;
+        left:auto;
+        right:auto;
+    }
+}
+ @media screen and (max-width:479px){
+     .w-col{
+        width:100%;
+    }
+}
+ h1{
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:42px;
+    line-height:54px;
+    font-weight:400;
+}
+ .divider{
+    height:1px;
+    margin-top:20px;
+    margin-bottom:15px;
+    background-color:#eee;
+}
+ .style-label{
+    color:#bebebe;
+    font-size:12px;
+    line-height:20px;
+    font-weight:500;
+    text-transform:uppercase;
+}
+ .tag-wrapper{
+    margin-top:35px;
+    margin-bottom:35px;
+    padding-right:5px;
+    padding-left:5px;
+}
+ .row{
+    margin-bottom:50px;
+}
+ .number-card-number{
+    margin-top:0px;
+    margin-bottom:0px;
+    color:#fff;
+    font-weight:300;
+}
+ .tagline{
+    font-size:12px;
+    font-weight:500;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+ .tagline.number-card-currency{
+    color:#fff;
+}
+ .basic-column{
+    padding-right:5px;
+    padding-left:5px;
+}
+ .number-card{
+    padding:22px 30px;
+    border-radius:8px;
+    background-image:-webkit-linear-gradient(270deg, #1991eb, #1991eb);
+    background-image:linear-gradient(180deg, #1991eb, #1991eb);
+}
+ .number-card.number-card-content3{
+    background-image:-webkit-linear-gradient(270deg, #ed629a, #c850c0);
+    background-image:linear-gradient(180deg, #ed629a, #c850c0);
+}
+ .number-card.number-card-content4{
+    background-image:-webkit-linear-gradient(270deg, #ff8308, #fd4f00);
+    background-image:linear-gradient(180deg, #ff8308, #fd4f00);
+}
+ .number-card.number-card-content2{
+    display:block;
+    background-image:-webkit-linear-gradient(270deg, #17cec4, #17cec4 0%, #08aeea);
+    background-image:linear-gradient(180deg, #17cec4, #17cec4 0%, #08aeea);
+    color:#333;
+}
+ .number-card.number-card-content1{
+    background-image:-webkit-linear-gradient(270deg, #7042bf, #3023ae);
+    background-image:linear-gradient(180deg, #7042bf, #3023ae);
+}
+ .number-card-progress-wrapper{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+}
+ .number-card-divider{
+    height:1px;
+    margin-top:10px;
+    margin-bottom:14px;
+    background-color:hsla(0, 0%, 100%, .15);
+}
+ .number-card-dollars{
+    color:hsla(0, 0%, 100%, .8);
+    font-size:16px;
+    line-height:24px;
+}
+ .number-card-progress{
+    color:#fff;
+    text-align:right;
+}
+ @media (max-width: 991px){
+     .number-card-number{
+        font-size:30px;
+    }
+     .number-card{
+        padding-top:12px;
+        padding-bottom:16px;
+    }
+}
+
+/* MEDIA QUERIES */
+
+@media(max-width: 576px) {
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container-xs{
+    width: 100vh;
+  }
+  nav img{
+    width: 140px;
+  }
+  .hero-title h1{
+    font-size: 26px;
+    position: relative;
+    right: 27px;
+  }
+  .hero-title p{
+    font-size: small;
+    position: relative;
+    bottom: 25px;
+    right: 27px;
+  }
+  .fix-btn{
+    position: relative;
+    right: 29px;
+  }
+  .main-1 .video-1{
+    width: 320px;
+    position: relative;
+    top: 55px;
+    left: 5px;
+  }
+  .video-1{
+    object-fit: fill;
+  }
+   marquee {
+     position: relative;
+     top: 30px;
+     z-index: 0;
+   }
+  .main-1-title h3{
+    position: relative;
+    right: 69px;
+  }
+  .main-1 .main-1-text p{
+    font-size: 1.2em;
+  }
+  .main-2 .fix-title2{
+    position: relative;
+    right: 50px;
+    padding: 0 0px 0 0px ;
+  }
+  .main-2 .fix-title2 h3 i{
+    position: relative;
+    right: 82px;
+    top: 28px;
+  }
+  /*
+  .main-2 .accordion .accordion-item h2 button i{
+    visibility: hidden; 
+  }
+  */
+  .main-2 .accordion .accordion-item h2 button p{
+    font-size: 14px;
+    
+  }
+  .main-2 .img-2 video{
+    width: 320px;
+    position: relative;
+    top: 60px;
+  }
+
+  .main-3 .fix-h4{
+    position: relative;
+    left: 20px;
+    top: 60px;
+  }
+  .img-3 img{
+    height: 240px;
+    position: relative;
+    left: 10px;
+    bottom: 705px;
+  }
+  .main-3 .accordion-2-fix{
+    position: relative;
+    top: 100px;
+  }
+  .main-4 h3{
+    visibility: hidden;
+  }
+  .main-4 .mobile-view h4{
+    visibility: visible;
+    position: relative;
+    bottom: 160px;
+  }
+  .main-4-text p, .main-4-text img{
+     visibility: hidden;
+  }
+  .mobile{
+    position: relative;
+    bottom: 130px;
+    visibility: visible;
+  }
+  .img-pqn{
+    width: 320px;
+    position: relative;
+    bottom: 300px;
+  }
+  .main-5 .img-title img{
+    width: 150px;
+    height: 70px;
+    position: relative;
+    bottom: 290px;
+  }
+
+  .main-5 a{
+    position: relative;
+    bottom: 260px;
+    left: 20px;
+  }
+   .carousel-inner{
+     position: relative;
+     bottom: 200px;
+   }
+   .main-6-title{
+     position: relative;
+     bottom: 200px;
+   }
+   .tag-wrapper{
+     position: relative;
+     bottom: 140px;
+   }
+
+   footer h3{
+     font-size: 22px;
+   }
+   footer ul li{
+     position: relative;
+     left: 0px;
+     width: 40px;
+   }
+   footer p{
+    font-size: 14px;
+   }
+   .modal-body .embed-responsive iframe{
+    margin-left: 0px;
+  }
+  .modal-content .modal-header h4 {
+    font-size: 14px;
+    margin-left: 25px;
+  }
+  .video-5{
+    position: relative;
+    left: 3%;
+     top: 0px;
+    width: 320px;
+  }
+  .cv{
+    position: relative;
+    top: -400px;
+  }
+
+}
+
+@media (min-width: 580px) and (max-width: 991.98px) {
+  *{
+    display: none;
+  }
+ }
+
+ @media (min-width: 1400px) { 
+   footer ul li{
+     position: relative;
+     left: 700px;
+   }
+   .main-1{
+     margin-left: 200px;
+   }
+   .main-6 .tag-wrapper{
+    position: relative;
+    left: 250px;
+   }
+   .main-1-title h3{
+     position: relative;
+     left: 340px;
+   }
+   .video-5{
+    position: relative;
+    left: 30%;
+     top: 250px;
+  }
+  .cv{
+    position: relative;
+    top: -400px;
+  }
+ }
+ @media (min-width: 991px) and (max-width:1398px) { 
+  .main-1{
+    margin-left: 55px;
+  }
+  }
+  @media only screen and (min-width: 1380px) and (max-width: 1699px){
+    .main-6{
+      position: relative;
+      right: 160px;
+    }
+    
+    }
+
+@media only screen and (min-width: 1920px){
+   
+.cards{
+    left: 370px;
+}
+}
+

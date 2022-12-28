@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #F3F4F6;
+}
+nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99999;
+}
+.texto{
+    margin: 0 250px;
+}
+.bouton{
+    display: block;
+    position: relative;
+    left: 44%;
+}
+.flexbox{
+    display: inline-flex;
+}
+#accordion-collapse{
+    position: relative;
+    top: 160px;
+}
+h1 , p{
+    text-align: center;
+}
+.g1{
+    position: relative;
+    top: 80px;
+}
+.l1{
+    position: relative;
+    top: 15px;
+    margin: 0px 0px;
+}
+.services{
+    position: relative;
+    top: 220px;
+    
+}
+.cards{
+   display: inline-flex;
+    position: relative;
+    top: 270px;
+    left: 170px;
+    margin: 0px;
+}
+.c2{
+margin-left: 35px;
+
+}
+.c3{
+    margin-left: 35px;
+}
+.fix{
+    height: 120px;
+    margin: auto;
+}
+.fixfix{
+    position: relative;
+    top: 14px;
+}
+.fix1{
+    height: 60px;
+    margin: auto;
+}
+.fix2{
+ position: relative;
+ top: 58px;
+}
+.gsmtitle h2{
+position: relative;
+top: 315px;
+display: block;
+text-align: center;
+}
+.server{
+    position: relative;
+    top: 340px;
+}
+
+/* services cards */
+
+.service1{
+    position: relative;
+    top: 120px;
+}
+.title3{
+    position: relative;
+    top: 350px;
+}
+.ti3{
+    text-align: center;
+}
+.ti4{
+ position: relative;
+ bottom: 60px;
+}
+.ti5{
+    position: relative;
+    bottom: 40px;
+}
+.followus{
+    position: relative;
+    top: 400px;
+}
+
+/* linkvertise */
+
+.linkvertise{
+    position: relative;
+    top: 120px;
+}
+.frame{
+    position: relative;
+    left: 400px;
+    top: 30px;
+}
+.xx{
+    position: relative;
+ bottom: 110px;
+}
+.bb{
+    display: block;
+    position: relative;
+    left: 45%;
+    top: 20px;
+}
+
+footer{
+    position: relative;
+    top: 800px;
+}
+
+/* Back to top button */
+
+#button {
+    display: inline-block;
+    background-color: #E02424;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Styles for the content section */
+  
+  .content {
+    width: 77%;
+    margin: 50px auto;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    color: #6c767a;
+    line-height: 1.9;
+  }
+   /* cards img */
+
+   .ps{
+    height: 292px;
+    position: relative;
+    left: 32px;
+  }
+  .w11{
+    height: 292px;
+  }
+  .o365{
+    height: 290px;
+    left: -10px;
+  }

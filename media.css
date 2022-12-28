@@ -84,6 +84,29 @@
     height: 180px;
     left: -10px;
   }
+  .linkvertise{
+    position: relative;
+    top: 120px;
+}
+.frame{
+   display: none;
+}
+.xx{
+    position: relative;
+    bottom: 5px;
+}
+.bb{
+    display: block;
+    position: relative;
+    left: 25%;
+    top: 20px;
+}
+.mu{
+    position:relative ;
+    bottom: 29px;
+    left: 15px;
+}
+
 
   /* modal fix position */
   #crypto-modal{
@@ -98,13 +121,48 @@
         position: relative;
         left: 60px;
     }
+    .mu{
+        display: none;
+    }
+    .linkvertise{
+        position: relative;
+        top: 160px;
+    }
+    .xx{
+         position: relative;
+         bottom: 110px;
+    }
+    .bb{
+        display: block;
+        position: relative;
+        left: 45%;
+        top: 20px;
+    }
+    .frame{
+        position: relative;
+        left: 320px;
+    }
 }
 @media only screen and (min-width: 1920px){
  
 .cards{
     left: 370px;
 }
+.mu{
+    display: none;
 }
+.frame{
+    position: relative;
+    left: 570px;
+}
+}
+
+@media only screen and (min-width: 1600px){
+ 
+    .mu{
+        display: none;
+    }
+    }
 /* back to top button */
 @media (min-width: 500px) {
     .content {
@@ -123,3 +181,9 @@
     font-style: italic;
     color: #96a2a7;
   }
+  
+@media (min-width: 580px) and (max-width: 991.98px) {
+    *{
+      display: none;
+    }
+   }
